@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2a2a2a;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.home-section {
+    background: url('https://via.placeholder.com/1600x800') no-repeat center center/cover;
+    color: white
